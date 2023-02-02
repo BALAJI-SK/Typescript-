@@ -1,4 +1,4 @@
-const userData = require('../data/userData');
+import userData from ('../data/userData');
 const getAllUsers = (req, res) => {
     res.status(200).json(userData);
 };

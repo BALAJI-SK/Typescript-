@@ -1,5 +1,5 @@
 //import express
-const express = require('express');
+import express from ('express');
 //import userController
 const userController = require('../controllers/userController');
 

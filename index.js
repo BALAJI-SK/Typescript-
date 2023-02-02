@@ -1,4 +1,4 @@
-const express = require('express');
+import  express from('express');
 const app = express();
 const routes = require('./src/routers/userRouter');
 app.use(express.json());
